@@ -50,12 +50,17 @@ out/artifact/JReplDB_Jar
 ## How to get REPLIT_DB_URL ? 
 - Go To A Repl, Paste and Run this Java Statement to print the DB Url
 ``` java
-System.out.println(System.getenv("REPLIT_DB_URL));
+System.out.println(System.getenv("REPLIT_DB_URL")); // Prints the DB URL
 ```
+Replit DB Url is a confidential detail and not to be shared! 
 - Check RDBUtils Class at bottom to make it Easy
 
 ## Writing To Database
 - Creating the instance
 ``` java
-JReplDB rdb = new JReplDB(REPLIT_DB_URL);
+JReplDB rdb = new JReplDB(REPLIT_DB_URL); 
+```
+- Using set()
+``` java
+rdb.set("key" , "value"); //Takes 2 Arguments
 ```
