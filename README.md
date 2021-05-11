@@ -15,10 +15,10 @@ allprojects {
 		}
 	}
 ```
-- Add the dependency (replace main-SNAPSHOT with version on top)
+- Add the dependency (replace version with the version on top)
 ```gradle
 dependencies {
-	        implementation 'com.github.shivam1608:JReplDB:main-54fed72a95-1'
+	        implementation 'com.github.shivam1608:JReplDB:0.1'
 	}
 ```
 
@@ -32,12 +32,12 @@ dependencies {
 		</repository>
 	</repositories>
 ```
-- Add the dependency (replace main-SNAPSHOT with version on top)
+- Add the dependency (replace version with the version on top)
 ```maven 
 <dependency>
 	    <groupId>com.github.shivam1608</groupId>
 	    <artifactId>JReplDB</artifactId>
-	    <version>Tag</version>
+	    <version>0.1</version>
 	</dependency>
 
 ```
