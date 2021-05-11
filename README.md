@@ -91,3 +91,10 @@ String allKeys[] = rdb.getAllKeys();
 ``` java
 String specificKeys[] = rdb.getList("h") // All keys starting with 'h' will be returned
 ```
+
+## Exceptions
+- The exceptions details
+``` json
+InvalidDBUrlException : Thrown when the DB Url is Invalid
+InvalidKeyException : Thrown when the key looking for is Invalid or Key is Not Found
+```
