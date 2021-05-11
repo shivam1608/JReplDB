@@ -23,7 +23,7 @@ dependencies {
 ```
 
 ### Maven
-- Add the repository
+- Add the repository in pom.xml file
 ```maven
       <repositories>
 		<repository>
