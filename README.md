@@ -120,5 +120,31 @@ JReplDB rdb = new JReplDB(RDBUtils.fetchDBUrl("KEY_HERE"));  // Works on any IDE
 - IDE used [IntelliJ](https://www.jetbrains.com/idea/)
 
 ## How to Install on Replit
-
-
+Follow the steps to use it on Repl It 
+- Create a pom.xml File in Your Repl
+- Copy and paste this code in pom.xml file (Only For Replit IDE)
+``` xml
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mygroupid</groupId>
+  <artifactId>myartifactid</artifactId>
+  <version>0.0-SNAPSHOT</version>
+  <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+  <dependencies>
+    	<dependency>
+	    <groupId>com.github.shivam1608</groupId>
+	    <artifactId>JReplDB</artifactId>
+	    <version>0.1</version>
+	</dependency>
+  </dependencies>
+  <build>
+    
+  </build>
+</project>
+```
+Replace 0.1 with the version on TOP
