@@ -52,6 +52,10 @@ out/artifact/JReplDB_Jar
 [How to install on Replit.com](#how-to-install-on-replit)
 
 ## How to get REPLIT_DB_URL ? 
+- How does DB Url Look like ? (* x . is used to hide the real one)
+```
+https://kv.replit.com/v0/eyJhb***OiJI***UxMiIsInR5cxxxxxxxxxxxxxxxxxxxxxx..............xxxxxxxxxx.xxxxxxxxxxxxxxxxxx
+```
 - Go To A Repl, Paste and Run this Java Statement to print the DB Url
 ``` java
 System.out.println(System.getenv("REPLIT_DB_URL")); // Prints the DB URL
