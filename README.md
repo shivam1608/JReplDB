@@ -64,3 +64,10 @@ JReplDB rdb = new JReplDB(REPLIT_DB_URL);
 ``` java
 rdb.set("key" , "value"); //Takes 2 Arguments
 ```
+## Reading From Database
+- Using get(), returns the value of a key in UTF-8 Format
+``` java
+rdb.get("key");
+```
+- Throws InvalidKeyException When the key specified is Invalid or Does Not Exists
+
