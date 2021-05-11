@@ -98,3 +98,19 @@ String specificKeys[] = rdb.getList("h") // All keys starting with 'h' will be r
 InvalidDBUrlException : Thrown when the DB Url is Invalid
 InvalidKeyException : Thrown when the key looking for is Invalid or Key is Not Found
 ```
+Exmaple can be found in this repo itself in /example
+
+## The RDBUtils Class 
+There is a RDBUtils to Help with the Privacy of REPLIT_DB_URL and make is SAFE, Using Simple ENV
+- Automatically Get The REPLIT_DB_URL (When using in REPLit IDE ONLY)
+``` java
+JReplDB rdb = new JReplDB(RDBUtils.fetchDBUrl());  // Works only in Replit IDE
+```
+- Access from .env File on LocalSystem or Server (Works EveryWhere)
+``` java
+JReplDB rdb = new JReplDB(RDBUtils.fetchDBUrl("KEY_HERE"));  // Works on any IDE (REQUIRED KEY_HERE) i.e the key for the DB Url saved in .env
+```
+
+## Credits
+- shivzee/shivam1608 made the whole lib alone
+- IDE used [IntelliJ](https://www.jetbrains.com/idea/)
