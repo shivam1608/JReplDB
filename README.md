@@ -66,6 +66,8 @@ Replit DB Url is a confidential detail and not to be shared!
 ## Writing To Database
 - Creating the instance
 ``` java
+import me.shivzee.JReplDB;
+
 JReplDB rdb = new JReplDB(REPLIT_DB_URL); 
 ```
 - Using set()
@@ -112,6 +114,9 @@ Exmaple can be found in this repo itself in /example
 There is a RDBUtils to Help with the Privacy of REPLIT_DB_URL and make is SAFE, Using Simple ENV
 - Automatically Get The REPLIT_DB_URL (When using in REPLit IDE ONLY)
 ``` java
+import me.shivzee.JReplDB;
+import me.shivzee.utils.RDBUtils;
+
 JReplDB rdb = new JReplDB(RDBUtils.fetchDBUrl());  // Works only in Replit IDE
 ```
 - Access from .env File on LocalSystem or Server (Works EveryWhere)
