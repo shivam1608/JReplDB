@@ -82,7 +82,8 @@ boolean status = rdb.delete("key"); //Takes 1 Argument
 ``` java
 String allKeys[] = rdb.getList();
 ```
- -- OR
+- OR
+ 
 ``` java
 String allKeys[] = rdb.getAllKeys();
 ```
