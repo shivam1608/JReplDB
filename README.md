@@ -48,8 +48,7 @@ Download the jar from this repo
 out/artifact/JReplDB_Jar
 ```
 
-## How to install on Replit
-- Go to the very Bottom of This Page!
+[# How to install on Replit.com](#how-to-install-on-replit)
 
 ## How to get REPLIT_DB_URL ? 
 - Go To A Repl, Paste and Run this Java Statement to print the DB Url
@@ -119,4 +118,4 @@ JReplDB rdb = new JReplDB(RDBUtils.fetchDBUrl("KEY_HERE"));  // Works on any IDE
 - shivzee/shivam1608 made the whole lib alone
 - IDE used [IntelliJ](https://www.jetbrains.com/idea/)
 
-[How to insall](#how-to-install-on-replit)
+
