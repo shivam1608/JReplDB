@@ -48,7 +48,8 @@ Download the jar from this repo
 out/artifact/JReplDB_Jar
 ```
 
-[# How to install on Replit.com](#how-to-install-on-replit)
+### On Replit
+[How to install on Replit.com](#how-to-install-on-replit)
 
 ## How to get REPLIT_DB_URL ? 
 - Go To A Repl, Paste and Run this Java Statement to print the DB Url
