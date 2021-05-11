@@ -119,4 +119,6 @@ JReplDB rdb = new JReplDB(RDBUtils.fetchDBUrl("KEY_HERE"));  // Works on any IDE
 - shivzee/shivam1608 made the whole lib alone
 - IDE used [IntelliJ](https://www.jetbrains.com/idea/)
 
+## How to Install on Replit
+
 
