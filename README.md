@@ -62,12 +62,31 @@ JReplDB rdb = new JReplDB(REPLIT_DB_URL);
 ```
 - Using set()
 ``` java
-rdb.set("key" , "value"); //Takes 2 Arguments
+boolean status = rdb.set("key" , "value"); //Takes 2 Arguments
 ```
 ## Reading From Database
 - Using get(), returns the value of a key in UTF-8 Format
 ``` java
-rdb.get("key");
+String utf8_String = rdb.get("key"); //Takes 1 Argument
 ```
 - Throws InvalidKeyException When the key specified is Invalid or Does Not Exists
 
+## Deleting From Database
+- Using delete(), returns true/false according to the success code
+``` java
+boolean status = rdb.delete("key"); //Takes 1 Argument
+```
+## Searching/Listing Databases
+- Given getList() overloaded function/method
+- Get All Database Keys Using getList() , returns a string array of all keys
+``` java
+String allKeys[] = rdb.getList();
+```
+-- OR
+``` java
+String allKeys[] = rdb.getAllKeys();
+```
+- Get a Specific Query Using getList(), returns a string array of specific keys
+``` java
+String specificKeys[] = rdb.getList("h") // All keys starting with 'h' will be returned
+``
