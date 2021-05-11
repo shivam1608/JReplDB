@@ -1,5 +1,5 @@
 # JReplDB
-The Most Light Weight, Powerful, Stable Libaray to interact with Replit.com / Repl.it Database using Java. Read about Replit DB https://docs.replit.com/misc/database.
+The Most Light Weight, Powerful, Stable Libaray to interact with Replit.com / Repl.it Database using Java. Read about Replit DB https://docs.replit.com/misc/database. Java 8 Compatable. Easy to use and install on replit.com
 
 ### Version : 0.1
 
