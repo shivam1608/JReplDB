@@ -82,11 +82,11 @@ boolean status = rdb.delete("key"); //Takes 1 Argument
 ``` java
 String allKeys[] = rdb.getList();
 ```
--- OR
+ -- OR
 ``` java
 String allKeys[] = rdb.getAllKeys();
 ```
 - Get a Specific Query Using getList(), returns a string array of specific keys
 ``` java
 String specificKeys[] = rdb.getList("h") // All keys starting with 'h' will be returned
-``
+```
