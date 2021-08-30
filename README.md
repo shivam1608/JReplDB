@@ -1,4 +1,4 @@
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=shivam1608)](https://github.com/anuraghazra/github-readme-stats)
+
 
 
 # JReplDB
