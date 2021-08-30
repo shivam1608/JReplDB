@@ -1,3 +1,6 @@
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=shivam1608)](https://github.com/anuraghazra/github-readme-stats)
+
+
 # JReplDB
 The Most Light Weight, Powerful, Stable Libaray to interact with Replit.com / Repl.it Database using Java. Read about Replit DB https://docs.replit.com/misc/database. Java 8 Compatable. Easy to use and install on replit.com
 
